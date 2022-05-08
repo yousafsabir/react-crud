@@ -1,0 +1,42 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.body {
+    padding: 4rem 1rem;
+    min-width: 1000px;
+    background-color: #f1f1f1;
+}
+.body.flex,
+.form-feild.flex {
+    flex-direction: column;
+}
+.form-feild {
+    width: 400px;
+}
+.form-feild.flex {
+    align-items: space-between;
+}
+.form-feild label {
+    font-size: 1.125rem;
+}
+.form-feild input {
+    margin-left: 2rem;
+    width: 200px;
+    padding: 0.35rem 0.5rem;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.output-table {
+    overflow: hidden;
+    border-collapse: collapse;
+}
+td {
+    padding: 0.25rem 0.75rem;
+}
